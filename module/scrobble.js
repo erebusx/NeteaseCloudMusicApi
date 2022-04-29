@@ -23,6 +23,7 @@ module.exports = (query, request) => {
         source: 'list',
       },
     })
+  }
 
   const data = {
     logs: JSON.stringify(buf),
